@@ -1,19 +1,32 @@
-# Next + Netlify Starter
+# OpenPortfolio for PMs, EM, and etc...
 
-[![Netlify Status]([![Netlify Status](https://api.netlify.com/api/v1/badges/b1852e33-8bce-42fc-ada7-5980b800e5c2/deploy-status)](https://app.netlify.com/sites/taricsa-openportfolio/deploys))
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1852e33-8bce-42fc-ada7-5980b800e5c2/deploy-status)](https://app.netlify.com/sites/taricsa-openportfolio/deploys)
 
-This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
+## Source starter - (Nextjs + Netlify Starter)
+The base for this project was a very minimal starter that includes Nextjs able to deploy at Netlify, including the [Essential Next.js Build Plugin](https://github.com/netlify/netlify-plugin-nextjs), which will allow for you to implement features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing.
 
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. It also includes the [Essential Next.js Build Plugin](https://github.com/netlify/netlify-plugin-nextjs), which will allow for you to implement features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing.
+Source: https://github.com/cassidoo/next-netlify-starter
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
 
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+## Tech-stack for this project
+I changed a bit of the source tech-stack:
+1. Nextjs upgrade lastest 12.x
+2. From js to Typescript (tsx)
+3. Replace from the current css to tailwind css.
+
+## Project Structure
+One of the goals is to offer an easy any for you to interchange between the components
+1. Layout: base struture for the page, including the Footer, and Head component
+2. Profile Hero: the first section to show case you
+3. TrustMe: Social proof, display the companies that hired you before
+4. Recommendation: Social proof, copy recommendations from your LinkedIn page
+5. Popular Posts: You don't have post? Don't worry replace for cases, projects, ...
+6. Experience: Don't need to show everything, the last five years is more than enough.
+7. Footer: Difference way to be contanct
+8. News: We can remove this one, it was my way to help you find this repository.
 
 ## Getting Started
-
 First, run the development server:
-
 ```bash
 npm run dev
 # or
@@ -22,18 +35,8 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-### Installation options
-
-**Option one:** One-click deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
-
-**Option two:** Manual clone
-
-1. Clone this repo: `git clone https://github.com/netlify-templates/next-netlify-starter.git`
-2. Navigate to the directory and run `npm install`
-3. Run `npm run dev`
-4. Make your changes
-5. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
+### Customize your portilofio
+Now is your turn. Start customizing, and remember to follow all the tips I left in the page. If you need any help, just reach out here.
+Good luck, and hunt!!!
