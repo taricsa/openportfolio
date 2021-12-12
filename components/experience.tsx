@@ -28,8 +28,8 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-white dark:bg-gray-800 static">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+    <section id="experience" className="bg-white static">
+      <div className="max-w-6xl mx-auto h-48 bg-white">
         <h1 className=" text-6xl md:text-6xl font-bold py-20 text-center md:text-center">
           Experience
         </h1>
@@ -39,8 +39,8 @@ export default function Experience() {
           {/* Experience card */}
           {experiences.map((experience, index) => (
           <div>
-          <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4" key={experience.id}>
-              <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
+          <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white z-10 mx-4" key={experience.id}>
+              <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold">
                 {experience.period}
               </h1>
               <h1 className="font-semibold text-xl">{experience.title}</h1>
