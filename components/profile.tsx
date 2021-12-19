@@ -6,7 +6,7 @@ import ProfileImage from '../assets/profile-pic.png'
 export default function ProfileHero() {
   return (
     <section id="profile" >
-        <section className="static" style={{ height: "500px" }}>
+        <section className="static justify-center" style={{ height: "500px" }}>
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
@@ -112,16 +112,16 @@ export default function ProfileHero() {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-gray-800">
-                      Tell more about yourself in this section—this is your chance to 
-                      shine and keep the visitor scrolling down to your page. Share your 
-                      proudest accomplashments, complex projects. Treat yourself as a product, 
+                      Tell more about yourself in this section—this is your chance to
+                      shine and keep the visitor scrolling down to your page. Share your
+                      proudest accomplashments, complex projects. Treat yourself as a product,
                       and find the market-fit works to describe you. You can change anything in
                       this section, from the background image, the the stats in the left.
                       Be Careful not to repeat the information you share in the following sections.
-                      Tips: 1. 184 WORDS MAX 2. If you're unsure what to include, I like to recommend 
-                      the Past/Present/Future structure. Discuss how you started your career (past), 
+                      Tips: 1. 184 WORDS MAX 2. If you're unsure what to include, I like to recommend
+                      the Past/Present/Future structure. Discuss how you started your career (past),
                       what you're doing right now (present), and what you're looking forward to in the future!
-                      3. Don't use ineffective buzzwords and cliches like 'team player', 'hard working' or 'self-starter'. 
+                      3. Don't use ineffective buzzwords and cliches like 'team player', 'hard working' or 'self-starter'.
                       These are overused and vague, and reduce the impact of your profile.
                       </p>
                     </div>
