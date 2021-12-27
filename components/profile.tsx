@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import ProfileImage from '../assets/profile-pic.png'
 
-// I was to lazy to build the const for all the inputs of this component, but they are easy to find and replace it. I will improve it later.
+// I was too lazy to build the const for all the inputs of this component, but they are easy to find and replace it. I will improve it later.
 
 export default function ProfileHero() {
   return (
