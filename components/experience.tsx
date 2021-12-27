@@ -1,4 +1,4 @@
-//The experiences const is the right place for you to change, and add new.
+// The experiences const is the right place for you to change, and add new.
 // Feel free to add more professional experience.
 
 const experiences = [
