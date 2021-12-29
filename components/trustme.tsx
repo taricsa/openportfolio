@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Company from "../assets/company-logo.png"
 
-// This components was built to acommodate 5 companies logo. All the imagens has to have the 635w - 112h, be save in the assests folders.
-// Follow the Company example in the top.
+// This components was built to acommodate 5 companies logo. All the imagens has to have the 635w - 112h, and be save in the assests folders.
+// Follow the Company example in the top of this page.
 // The next step is to replace the {Company} bellow for it correspondent one.
 // We can use last the 5, but no more the 5 logos here. It'll break the components UX/UI.
 
