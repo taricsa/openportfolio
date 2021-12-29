@@ -6,21 +6,21 @@ import Image from 'next/image'
 const recommendations = [
     {
         imageSrc:
-          "https://media-exp1.licdn.com/dms/image/C4D03AQFzz0wv8lkOxA/profile-displayphoto-shrink_200_200/0/1516259525911?e=1644451200&v=beta&t=wP2DXQbFKC8SWpnZGJJd8Pp4gQL2SxOLUYbJLjkAIuE",
+          "https://doodleipsum.com/700x700/avatar-2?i=bc931314c32811784f60b4911e26ea36",
         quote:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         customerName: "Fname Lname"
       },
       {
         imageSrc:
-          "https://media-exp1.licdn.com/dms/image/C4D03AQFzz0wv8lkOxA/profile-displayphoto-shrink_200_200/0/1516259525911?e=1644451200&v=beta&t=wP2DXQbFKC8SWpnZGJJd8Pp4gQL2SxOLUYbJLjkAIuE",
+          "https://doodleipsum.com/700x700/avatar-2?i=bc931314c32811784f60b4911e26ea36",
         quote:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         customerName: "Fname Lname"
       },
       {
         imageSrc:
-          "https://media-exp1.licdn.com/dms/image/C4D03AQFzz0wv8lkOxA/profile-displayphoto-shrink_200_200/0/1516259525911?e=1644451200&v=beta&t=wP2DXQbFKC8SWpnZGJJd8Pp4gQL2SxOLUYbJLjkAIuE",
+          "https://doodleipsum.com/700x700/avatar-2?i=bc931314c32811784f60b4911e26ea36",
         quote:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         customerName: "Fname Lname"
