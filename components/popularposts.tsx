@@ -3,29 +3,29 @@ import Link from "next/link";
 import Image from "next/image"
 
 //This component was build to acommode 3 post, or multiples of 3. So, 6, 9, 12, ...
-// For this first release the imageSrc, category, title and link are hard-coded bellow.
+// For this first release the imageSrc, category, title and link are hard-coded bellow. Replace all of them.
 
 const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1516824600626-47a22f894aff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-      category: "Decision-Making",
-      title: "Any decision making is simply chaotic process — You should learn Cynefin",
-      url: "https://medium.com/zerotohero/any-decision-making-is-simply-chaotic-process-you-should-learn-cynefin-86eebeefb813"
+        "https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      category: "Career",
+      title: "Learn how to build your portfolio to shine among recruiters.",
+      url: "https://medium.com/zerotohero/product-manager-have-you-built-your-portfolio-f1a02e249334"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      category: "LifeStyle",
-      title: "Why you should care about Mispronounce of your name",
-      url: "https://medium.com/zerotohero/why-you-should-care-about-mispronounce-of-your-foreign-sounding-5341fc3c2691"
+        "https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80",
+      category: "Career",
+      title: "Learn how to build your portfolio to shine among recruiters.",
+      url: "https://medium.com/zerotohero/product-manager-have-you-built-your-portfolio-f1a02e249334"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1598288051821-452afe9c645f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-      category: "Parenting",
-      title: "8 Things You Should do for Your Daughter",
-      url: "https://taric.medium.com/8-things-you-should-do-for-your-daughter-851316eea109"
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80",
+      category: "Career",
+      title: "Learn how to build your portfolio to shine among recruiters.",
+      url: "https://medium.com/zerotohero/product-manager-have-you-built-your-portfolio-f1a02e249334"
     }
   ];
   
