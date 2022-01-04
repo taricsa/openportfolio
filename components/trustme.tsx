@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Company01 from "../assets/company-logo-01.png"
 import Company02 from "../assets/company-logo-02.png"
-import Company03 from "../assets/company-logo-02.png"
-import Company04 from "../assets/company-logo-02.png"
-import Company05 from "../assets/company-logo-02.png"
+import Company03 from "../assets/company-logo-03.png"
+import Company04 from "../assets/company-logo-04.png"
+import Company05 from "../assets/company-logo-05.png"
 
 // This components was built to acommodate 5 companies logo. All the imagens has to have the 635w - 112h, and be save in the assests folders.
 // Follow the Company example in the top of this page.
