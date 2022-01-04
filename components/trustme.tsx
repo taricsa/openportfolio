@@ -1,5 +1,9 @@
 import Image from 'next/image'
-import Company from "../assets/company-logo.png"
+import Company01 from "../assets/company-logo-01.png"
+import Company02 from "../assets/company-logo-02.png"
+import Company03 from "../assets/company-logo-02.png"
+import Company04 from "../assets/company-logo-02.png"
+import Company05 from "../assets/company-logo-02.png"
 
 // This components was built to acommodate 5 companies logo. All the imagens has to have the 635w - 112h, and be save in the assests folders.
 // Follow the Company example in the top of this page.
@@ -13,7 +17,7 @@ export default function TrustMe() {
       <div className="companies flex flex-row items-center flex-wrap justify-center">
         <div className="my-4 mx-4">
           <Image
-            src={Company}
+            src={Company01}
             width={120}
             height={50}
             alt="logo company"
@@ -21,7 +25,7 @@ export default function TrustMe() {
         </div>
         <div className="my-4 mx-4">
           <Image
-            src={Company}
+            src={Company02}
             alt="logo company"
             width={120}
             height={50}
@@ -29,7 +33,7 @@ export default function TrustMe() {
         </div>
         <div className="my-4 mx-4">
           <Image
-            src={Company}
+            src={Company03}
             width={120}
             height={50}
             alt="logo company"
@@ -37,7 +41,7 @@ export default function TrustMe() {
         </div>
         <div className="my-4 mx-4">
           <Image
-            src={Company}
+            src={Company04}
             width={120}
             height={50}
             alt="logo company"
@@ -45,7 +49,7 @@ export default function TrustMe() {
         </div>
         <div className="my-4 mx-4">
           <Image
-            src={Company}
+            src={Company05}
             width={120}
             height={50}
             alt="logo company"
