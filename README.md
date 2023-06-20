@@ -1,42 +1,64 @@
-# OpenPortfolio for PMs, EM, and etc...
+# OpenPortfolio: A Free Portfolio for Product People
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1852e33-8bce-42fc-ada7-5980b800e5c2/deploy-status)](https://app.netlify.com/sites/taricsa-openportfolio/deploys)
+## Introduction
 
-## Source starter - (Nextjs + Netlify Starter)
-The base for this project was a very minimal starter that includes Nextjs able to deploy at Netlify, including the [Essential Next.js Build Plugin](https://github.com/netlify/netlify-plugin-nextjs), which will allow for you to implement features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing.
+OpenPortfolio is an open-source project designed to help Product Managers, Engineering Managers, and other professionals create their own portfolio for free. The project is built using Next.js, deployed on Netlify, and uses TypeScript and Tailwind CSS. The base for this project was the [Next.js and Netlify Starter](https://github.com/cassidoo/next-netlify-starter).
 
-Source: https://github.com/cassidoo/next-netlify-starter
+## Features
 
+OpenPortfolio comes with several predefined sections to help you showcase your professional achievements:
 
-## Tech-stack for this project
-I changed a bit of the source tech-stack:
-1. Nextjs upgrade lastest 12.x
-2. From js to Typescript (tsx)
-3. Replace from the current css to tailwind css.
+1. **Profile Hero**: The first section to showcase you.
+2. **TrustMe**: Displays the companies that have hired you before.
+3. **Recommendation**: Copies recommendations from your LinkedIn page.
+4. **Popular Posts**: If you don't have posts, don't worry, you can replace them with cases, projects, etc.
+5. **Experience**: You don't need to show everything; the last five years are more than enough.
+6. **Footer**: Different ways to be contacted.
+7. **News**: Optional section that can be removed.
 
-## Project Structure
-One of the goals is to offer an easy any for you to interchange between the components
-1. Layout: base struture for the page, including the Footer, and Head component
-2. Profile Hero: the first section to show case you
-3. TrustMe: Social proof, display the companies that hired you before
-4. Recommendation: Social proof, copy recommendations from your LinkedIn page
-5. Popular Posts: You don't have post? Don't worry replace for cases, projects, ...
-6. Experience: Don't need to show everything, the last five years is more than enough.
-7. Footer: Difference way to be contanct
-8. News: We can remove this one, it was my way to help you find this repository.
+## Getting Started for Developers
 
-## Getting Started
-First, run the development server:
-```bash
-npm run dev
-# or
-yarn dev
+To start working on this project, follow these steps:
+
+1. Clone the repository.
+2. Run `npm install` or `yarn` to install the dependencies.
+3. Run `npm run dev` or `yarn dev` to start the development server.
+4. Open http://localhost:3000 with your browser to see the result.
+5. You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+## Customization for Non-Technical Users
+
+The content for each section is embedded within its respective component as a `const` variable. To customize the content, simply find the corresponding `const` and replace the content. For example, in the `recomendations.tsx` component, the `const recommendations` contains the content for the "Recommendations" section.
+
+Here's an example of how it looks in the `recomendations.tsx` file:
+
+```tsx
+const recommendations = [
+  {
+    name: "Person Name",
+    position: "Position",
+    image: "/images/person.jpg",
+    recommendation: "This is a recommendation text.",
+  },
+  //...more recommendations
+];
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Follow these steps to customize your portfolio:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Locate the component file for the section you wish to customize (e.g., `recomendations.tsx` for the Recommendations section).
+2. Find the `const` that contains the content for the section (e.g., `const recommendations`).
+3. Replace the existing content with your own.
+4. Save the file, and the changes should be reflected on your portfolio.
 
-### Customize your portilofio
-Now is your turn. Start customizing, and remember to follow all the tips I left in the page. If you need any help, just reach out here.
-Good luck, and hunt!!!
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or find a bug, please open an issue.
+
+## License
+
+This project is open-source and available under the [MIT License](https://github.com/taricsa/openportfolio/blob/main/LICENSE).
+
+## Customize your portfolio
+
+Now is your turn. Start customizing, and remember to follow all the tips I left on the page. If you need any help, just reach out here. Good luck, and hunt!!!
